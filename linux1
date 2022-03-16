@@ -1,0 +1,8 @@
+what does the command start my file.txt do?
+Ans: $man stat 
+What does the command df -h / do ?
+Ans:$man df ---->shows disk utilization of the rootfile system in a human-  readable way
+What command would i use to search for files in a directory heirarchy?
+Ans:$apropos "search for files"
+which option would i use with the ls command to output a comma-seperated list of files and directories?
+Ans:$man ls-----> in that -m option to show the output in a comma-seperated list
