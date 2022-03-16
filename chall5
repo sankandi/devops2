@@ -1,0 +1,9 @@
+1.Extract log.tar.gz
+Ans:$ tar -xvf log.tar.gz
+2.Look for unauthorized connection attempts
+Ans:$ less auth.log
+    $ cat auth.log | grep "imput_userauth_request" | awk '{print $9}'
+3.Extract the usernames an attacker tried to use
+Ans:$ cat auth.log | grep "input userauth request"|awk '{print $9}'
+4.Create a file containing these names (and make it organized)
+Ans:$ cat auth.log | grep "input userauth request"|awk '{print $9}'|sort -u > users.txt
