@@ -1,0 +1,10 @@
+1.Create a text file
+Ans:$ cat filename.txt
+2.Ensure any user can read and write it
+Ans:$ chmod a+rw samplefile
+    $ stat samplefile
+3.Compress the file using tar or zip
+$ tar -czf samplefile.tqz samplefile
+$ ls -lh samplefile.tqz
+ -rw-r--r-- 1 codebind codebind 164 Mar 15 21:35 samplefile.tqz
+
