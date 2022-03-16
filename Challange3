@@ -1,0 +1,4 @@
+1.Create files  by using touch command
+Ans:$touch file1
+2. Don't move the original files
+Ans:$cp copyfilename file1
